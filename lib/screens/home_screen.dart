@@ -33,14 +33,14 @@ class _HomeScreenState extends State<HomeScreen> {
             showDrawer ? BorderRadius.circular(40) : BorderRadius.circular(0),
       ),
       child: SafeArea(
-        child: Container(
-          margin: EdgeInsets.symmetric(
-            horizontal: 20,
-            vertical: 10,
-          ),
-          child: Column(
-            children: [
-              Row(
+        child: Column(
+          children: [
+            SizedBox(
+              height: 15,
+            ),
+            Container(
+              margin: EdgeInsets.symmetric(horizontal: 20),
+              child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   IconButton(
@@ -106,20 +106,20 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ],
               ),
-              SizedBox(
-                height: 20,
-              ),
-              SearchBar(),
-              SizedBox(
-                height: 20,
-              ),
-              PetCategories(),
-              SizedBox(
-                height: 20,
-              ),
-              PetSuggestions(),
-            ],
-          ),
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            SearchBar(),
+            SizedBox(
+              height: 20,
+            ),
+            PetCategories(),
+            SizedBox(
+              height: 20,
+            ),
+            PetSuggestions(),
+          ],
         ),
       ),
     );

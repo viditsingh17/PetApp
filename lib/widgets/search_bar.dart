@@ -8,6 +8,7 @@ class SearchBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      margin: EdgeInsets.symmetric(horizontal: 20),
       padding: EdgeInsets.symmetric(horizontal: 10, vertical: 5),
       decoration: BoxDecoration(
         color: Colors.white,
@@ -20,7 +21,7 @@ class SearchBar extends StatelessWidget {
           Expanded(
             child: TextField(
               decoration: InputDecoration(
-                labelText: 'Search pet to adopt',
+                hintText: 'Search pet to adopt',
                 contentPadding: EdgeInsets.symmetric(
                   horizontal: 10,
                   vertical: 5,
@@ -29,7 +30,7 @@ class SearchBar extends StatelessWidget {
               ),
             ),
           ),
-          Icon(CupertinoIcons.slider_horizontal_3)
+          Icon(CupertinoIcons.slider_horizontal_3),
         ],
       ),
     );
