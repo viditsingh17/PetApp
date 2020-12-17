@@ -1,4 +1,7 @@
 import 'package:PetApp/configuration.dart';
+import 'package:PetApp/widgets/pet_categories.dart';
+import 'package:PetApp/widgets/pet_suggestions.dart';
+import 'package:PetApp/widgets/search_bar.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -26,7 +29,8 @@ class _HomeScreenState extends State<HomeScreen> {
         ..scale(scaleFactor),
       decoration: BoxDecoration(
         color: Colors.white,
-        borderRadius: BorderRadius.circular(40),
+        borderRadius:
+            showDrawer ? BorderRadius.circular(40) : BorderRadius.circular(0),
       ),
       child: SafeArea(
         child: Container(
@@ -102,6 +106,18 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ],
               ),
+              SizedBox(
+                height: 20,
+              ),
+              SearchBar(),
+              SizedBox(
+                height: 20,
+              ),
+              PetCategories(),
+              SizedBox(
+                height: 20,
+              ),
+              PetSuggestions(),
             ],
           ),
         ),
