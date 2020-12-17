@@ -19,3 +19,86 @@ List<Map> categories = [
   {"name": "Birds", "iconPath": "images/bird.png"},
   {"name": "Horses", "iconPath": "images/horse.png"},
 ];
+
+List<Map> dogs = [
+  {
+    "name": "Bruno",
+    "imagePath": "images/dog0.png",
+    "breed": "Beagle",
+    "gender": "male",
+    "age": "0",
+    "distance": "6.0"
+  },
+  {
+    "name": "Miko",
+    "imagePath": "images/dog1.png",
+    "breed": "Labrador",
+    "gender": "female",
+    "age": "3",
+    "distance": "10.2"
+  },
+  {
+    "name": "Edgar",
+    "imagePath": "images/dog2.png",
+    "breed": "Pug",
+    "gender": "male",
+    "age": "1",
+    "distance": "2.0"
+  },
+  {
+    "name": "Brutus",
+    "imagePath": "images/dog3.png",
+    "breed": "German Shephard",
+    "gender": "male",
+    "age": "1",
+    "distance": "3.0"
+  },
+  {
+    "name": "Thunder",
+    "imagePath": "images/dog4.png",
+    "breed": "Greyhound",
+    "gender": "female",
+    "age": "3",
+    "distance": "5.6"
+  },
+  {
+    "name": "Chatus",
+    "imagePath": "images/dog5.png",
+    "breed": "Labrador",
+    "gender": "male",
+    "age": "8",
+    "distance": "16.0"
+  },
+  {
+    "name": "Lucky",
+    "imagePath": "images/dog6.png",
+    "breed": "Bull Dog",
+    "gender": "female",
+    "age": "10",
+    "distance": "2"
+  },
+  {
+    "name": "Cheese",
+    "imagePath": "images/dog7.png",
+    "breed": "Doberman",
+    "gender": "female",
+    "age": "5",
+    "distance": "1"
+  },
+  {
+    "name": "Pixie",
+    "imagePath": "images/dog8.png",
+    "breed": "Cavalier King Charles Spaniel",
+    "gender": "male",
+    "age": "2",
+    "distance": "20.0"
+  },
+  {
+    "name": "Bolt",
+    "imagePath": "images/dog9.png",
+    "breed": "German Shephard",
+    "gender": "female",
+    "age": "4",
+    "distance": "1"
+  },
+];

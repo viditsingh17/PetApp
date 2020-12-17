@@ -1,6 +1,6 @@
 import 'package:PetApp/configuration.dart';
 import 'package:PetApp/widgets/pet_categories.dart';
-import 'package:PetApp/widgets/pet_suggestions.dart';
+import 'package:PetApp/widgets/pet_category_display.dart';
 import 'package:PetApp/widgets/search_bar.dart';
 import 'package:flutter/material.dart';
 
@@ -115,10 +115,7 @@ class _HomeScreenState extends State<HomeScreen> {
               height: 20,
             ),
             PetCategories(),
-            SizedBox(
-              height: 20,
-            ),
-            PetSuggestions(),
+            PetCategoryDisplay(),
           ],
         ),
       ),

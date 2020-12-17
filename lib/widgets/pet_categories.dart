@@ -22,6 +22,7 @@ class _PetCategoriesState extends State<PetCategories> {
         itemCount: categories.length,
         itemBuilder: (context, index) {
           return Container(
+            padding: EdgeInsets.only(top: 20),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
