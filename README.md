@@ -1,16 +1,9 @@
 # PetApp
 
-A new Flutter project.
+An (Sample)app that allows users to donate their pets and adopt others pets.
 
-## Getting Started
+## About
 
-This project is a starting point for a Flutter application.
+I created this app to learn more about Flutter and UI/UX in general. This app's design was taken from Dribbble and I followed a tutorial by The Growing Developer on YouTube to complete this app. The app currently has two full screens and a side-drawer. The most fascinating thing about the app is it's unique side-drawer that makes the active page shrink and appears from the back.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Preview
