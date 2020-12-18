@@ -20,6 +20,7 @@ class SearchBar extends StatelessWidget {
           Icon(CupertinoIcons.search),
           Expanded(
             child: TextField(
+              autofocus: false,
               decoration: InputDecoration(
                 hintText: 'Search pet to adopt',
                 contentPadding: EdgeInsets.symmetric(

@@ -17,6 +17,7 @@ class PetCategoryDisplay extends StatelessWidget {
           return Container(
             margin: EdgeInsets.symmetric(vertical: 5),
             child: PetCard(
+              petId: dogs[index]['id'],
               petName: dogs[index]['name'],
               age: dogs[index]['age'],
               breed: dogs[index]['breed'],

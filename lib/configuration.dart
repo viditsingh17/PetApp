@@ -22,6 +22,7 @@ List<Map> categories = [
 
 List<Map> dogs = [
   {
+    "id": "1",
     "name": "Bruno",
     "imagePath": "images/dog0.png",
     "breed": "Beagle",
@@ -30,6 +31,7 @@ List<Map> dogs = [
     "distance": "6.0"
   },
   {
+    "id": "2",
     "name": "Miko",
     "imagePath": "images/dog1.png",
     "breed": "Labrador",
@@ -38,6 +40,7 @@ List<Map> dogs = [
     "distance": "10.2"
   },
   {
+    "id": "3",
     "name": "Edgar",
     "imagePath": "images/dog2.png",
     "breed": "Pug",
@@ -46,6 +49,7 @@ List<Map> dogs = [
     "distance": "2.0"
   },
   {
+    "id": "4",
     "name": "Brutus",
     "imagePath": "images/dog3.png",
     "breed": "German Shephard",
@@ -54,6 +58,7 @@ List<Map> dogs = [
     "distance": "3.0"
   },
   {
+    "id": "5",
     "name": "Thunder",
     "imagePath": "images/dog4.png",
     "breed": "Greyhound",
@@ -62,6 +67,7 @@ List<Map> dogs = [
     "distance": "5.6"
   },
   {
+    "id": "6",
     "name": "Chatus",
     "imagePath": "images/dog5.png",
     "breed": "Labrador",
@@ -70,6 +76,7 @@ List<Map> dogs = [
     "distance": "16.0"
   },
   {
+    "id": "7",
     "name": "Lucky",
     "imagePath": "images/dog6.png",
     "breed": "Bull Dog",
@@ -78,6 +85,7 @@ List<Map> dogs = [
     "distance": "2"
   },
   {
+    "id": "8",
     "name": "Cheese",
     "imagePath": "images/dog7.png",
     "breed": "Doberman",
@@ -86,6 +94,7 @@ List<Map> dogs = [
     "distance": "1"
   },
   {
+    "id": "9",
     "name": "Pixie",
     "imagePath": "images/dog8.png",
     "breed": "Cavalier King Charles Spaniel",
@@ -94,6 +103,7 @@ List<Map> dogs = [
     "distance": "20.0"
   },
   {
+    "id": "10",
     "name": "Bolt",
     "imagePath": "images/dog9.png",
     "breed": "German Shephard",
