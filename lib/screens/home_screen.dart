@@ -38,7 +38,8 @@ class _HomeScreenState extends State<HomeScreen> {
           milliseconds: 250,
         ),
         transform: Matrix4.translationValues(xOffset, yOffset, 0)
-          ..scale(scaleFactor),
+          ..scale(scaleFactor)
+          ..rotateY(showDrawer ? -0.2 : 0),
         decoration: BoxDecoration(
           color: Colors.white,
           borderRadius:
